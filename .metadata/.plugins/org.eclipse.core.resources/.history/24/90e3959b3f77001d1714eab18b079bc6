@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 26, 2022
+ *      Author: Ali
+ */
+
+#include "text_mode_vga_color.h"
+
+int main(int argc, char** argv) {
+//	paletteTest();
+//	textVGAColorScreenSaver();
+	vga_ctrl->SPRITE_DATA[0] = 0x85014;
+
+	printf("%x\n", vga_ctrl->SPRITE_DATA[0]);
+	printf("%x\n", vga_ctrl->SPRITE_DATA[1]);
+	printf("%x\n", vga_ctrl->SPRITE_DATA[2]);
+
+
+
+
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;usb-kb/main_helper&apos; to &apos;main_helper.h&apos;" description="Rename resource &apos;main_helper&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main_helper" name="main_helper.h" stamp="1670552840208" updateReferences="true"/>
+</session>
